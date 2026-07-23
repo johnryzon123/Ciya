@@ -1,4 +1,4 @@
-#include <unistd.h> // For write()
+#include <stdio.h> //For printf()
 
 #define LIMIT_TEST 19 // Added a char limit for the project
 
@@ -6,7 +6,7 @@ typedef struct Var {
   char Testing[LIMIT_TEST];
 } Var; // Typedef name
 
-void call(char string[LIMIT_TEST]) {
+void call(const char *string) { //Function to call
   printf("%s", string);
 }
 
