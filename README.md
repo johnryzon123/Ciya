@@ -32,4 +32,4 @@ feature which leads it to being not cross-platform
 <img width="256" height="147" alt="image" src="https://github.com/user-attachments/assets/1b81b0cb-5fba-4ff7-886b-1f010932be34" />
 
 As it says, it's 0.007 seconds in the real world and spent 0.016 seconds on the kernel, which is still blazingly fast code.
-(By the way, we tested in `WSL1`)
+(By the way, we tested it in `WSL1`)
